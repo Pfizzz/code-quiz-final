@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Coding Quiz</title>
+</head>
+
+<body>
+  <div id="quiz-wrapper" class="container">
+    <header class="row white lighten-3 z-depth-2" id="header-wrapper">
+    <!-- score div-->
+    <div class="col s6" id="score">
+      <a href="./scores.html"><p class="btn blue white-text">High Scores</p></a>
+    </div>
+    <!-- timer div -->
+    <div class="col s6 valign-wrapper" id="timer-wrapper">
+      <p class="col s6">Time:</p>
+      <div class="col s6" id="timer">
+
+      </div>
+    </div>
+  </header>
+  <div class="divider"></div>
+  <div class="wrapper"></div>
+  <div class="row" id="start"></div>
+
+    <div id="question"></div>
+
+    <ul id="option-list"></ul>
+
+    <div id="question-result"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
