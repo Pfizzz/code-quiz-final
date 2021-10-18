@@ -6,7 +6,7 @@ const displayScores = () => {
     let highscores = JSON.parse(window.localStorage.getItem("highscores")) || [];
     const scoreBox = document.createElement("div");
     scoreBox.classList = "center-align";
-    scoreBox.innerHTML = `<p class="flow-text">The Hall of Champions:</p>`;
+    scoreBox.innerHTML = ``;
     scoreEl.appendChild(scoreBox);
     console.log(highscores);
 
