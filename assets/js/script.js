@@ -181,7 +181,7 @@ function checkAnswer(event) {
     } else {
       questionResultEl.textContent = "Incorrect";
       questionResultEl.classList = "red center-align white-text flow-text";
-      time = time - 2;
+      time = time - 5;
       timerEl.textContent = time;
     }
   }
