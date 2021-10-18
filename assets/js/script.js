@@ -33,7 +33,7 @@ let questions = [
   },
   {
     question:
-      "What is the only data type that can be stores in local storage?",
+      "What is the only data type that can be stored in local storage?",
     choices: ["string", "integer", "JSON", "XML"],
     answer: "string",
   },
